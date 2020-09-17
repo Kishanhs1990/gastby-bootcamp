@@ -1,16 +1,22 @@
-import React from 'react';
-import Header from '../components/header';
-import Footer from '../components/footer';
+import React from "react"
+import Layout from "../components/layout"
 
 const Contact = () => {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h1>Contact Details</h1>
-      <p>The best way to reach me is via <a href="https://www.linkedin.com/in/kishanhs/" target="_blank" rel="noreferrer">@KishanHS</a></p>
-      <Footer />
-    </div>
+      <p>
+        The best way to reach me is via{" "}
+        <a
+          href="https://www.linkedin.com/in/kishanhs/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          @KishanHS
+        </a>
+      </p>
+    </Layout>
   )
 }
 
-export default Contact;
+export default Contact

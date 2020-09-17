@@ -1,11 +1,9 @@
-import React from 'react';
-import Header from '../components/header';
-import Footer from '../components/footer';
+import React from "react"
+import Layout from "../components/layout"
 
 const About = () => {
-  return ( 
-    <div>
-      <Header />
+  return (
+    <Layout>
       <h1>About Me</h1>
       <p>
         Kishan has 4+ years of experience in working on projects of varying
@@ -14,9 +12,8 @@ const About = () => {
         self-directed, enthusiastic worker with a passionate commitment to the
         software field and learning experience.
       </p>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 
-export default About;
+export default About
